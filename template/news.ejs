@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뉴스기사</title>
+</head>
+<body>
+    <h2>뉴스기사</h2>
+    <p>여러가지 직업군</p>
+    <ul>
+<%
+        jobs.forEach(job => {
+%>
+            <li><%=job.job%></li>
+<%
+        })
+%>
+        <li>직업1</li>
+    </ul>
+    
+</body>
+</html>
